@@ -10,10 +10,11 @@ This repository contains files that were used to conduct the Monte Carlo
 simulation experiments in the paper.
 
 - The main file used for simulation is `sim.R`.
-- The files `glue.R`, `missing.R` and `make_tables.R` are specific to the
-  distributed computing environment that was used (a SHARCNET/Compute Canada
-  system).  They were used to serially farm `sim.R` out to many CPUs, "glue" the
-  parts back together, and then extract the information from the glued files.
+- The files `run_simulations.sh`, `glue.R`, `missing.R` and `make_tables.R` are
+  specific to the distributed computing environment that was used (a
+  SHARCNET/Compute Canada system).  They were used to serially farm `sim.R` out
+  to many CPUs, "glue" the parts back together, and then extract the information
+  from the glued files.
 - `se_experiment.R` extracted information about the performance of variance
   estimates computed using the bootstrap from the data files.
 - `data/` is a directory containing the results of the simulations for five
