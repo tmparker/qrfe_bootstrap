@@ -34,6 +34,7 @@ estimates for the `p` covariates and you can calculate whatever else you wish
 from there.
 
 ```
+library(quantreg)
 w <- rexp(n * nboot, 1)
 U <- matrix(rep(w, each = T), n * T, nboot)
 bcoef <- boot.rq.wxy(cbind(x, ind), y, U, tau = Tau)[, 1:p]
