@@ -2,7 +2,7 @@
 
 Replication files for "Bootstrap inference for panel data quantile regression"
 
-Uploaded 2022-01-10
+Last update: 2023-01-28
 
 ## Contents
 
